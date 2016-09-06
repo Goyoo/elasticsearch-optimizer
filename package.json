@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/Goyoo/elasticsearch-optimizer/issues"
   },
-  "homepage": "https://github.com/Goyoo/elasticsearch-optimizer#readme"
+  "homepage": "https://github.com/Goyoo/elasticsearch-optimizer#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "validator": "^5.6.0"
+  }
 }
