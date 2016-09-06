@@ -1,0 +1,27 @@
+{
+  "name": "elasticsearch-optimizer",
+  "version": "1.0.0",
+  "description": ":rocket: Make ES faster than ever! Check that your elasticsearch cluster is ready for production :punch:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goyoo/elasticsearch-optimizer.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "optimize",
+    "check",
+    "performance",
+    "test",
+    "elastic"
+  ],
+  "author": "Guillaume Verbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goyoo/elasticsearch-optimizer/issues"
+  },
+  "homepage": "https://github.com/Goyoo/elasticsearch-optimizer#readme"
+}
