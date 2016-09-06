@@ -2,12 +2,17 @@
 
 var program = require('commander');
 var validator = require('validator');
+var helper = require('./lib/helper');
  
 program
     .version('0.0.1')
     .usage('[options] <host> <port>')
-    .parse(process.argv);
- 
+    .parse(process.argv)
+;
+
+/*
+ * Host and port sanitizing
+ */
 var host = '127.0.0.1';
 if (program.args[0])
 {
@@ -25,4 +30,19 @@ if (program.args[1])
     port = program.args[1];
 }
 
-console.log('ES is running on %s:%s', host, port);
+global.ES_HOST = host;
+global.ES_PORT = port;
+
+/*
+ * ES version support checks
+ */
+helper.getESVersion(function (error, version)
+{
+    if (error)
+        return helper.failAndExit(error);
+    if (2 != version.major)
+        return helper.failAndExit(new Error('This module only supports ES 2.x.'));
+
+    // todo: some more stuff
+    console.log('ES version number is %s', version.number);
+});
