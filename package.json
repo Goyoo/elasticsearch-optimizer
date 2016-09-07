@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Goyoo/elasticsearch-optimizer#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
