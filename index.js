@@ -43,6 +43,5 @@ helper.getESVersion(function (error, version)
     if (2 != version.major)
         return helper.failAndExit(new Error('This module only supports ES 2.x.'));
 
-    // todo: some more stuff
-    console.log('ES version number is %s', version.number);
+    require('./lib/2_x').start(version);
 });
