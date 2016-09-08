@@ -13,7 +13,7 @@ program
 /*
  * Host and port sanitizing
  */
-var host = '127.0.0.1';
+let host = '127.0.0.1';
 if (program.args[0])
 {
     // if (!validator.isIP(program.args[0]))
@@ -21,7 +21,7 @@ if (program.args[0])
     host = program.args[0];
 }
 
-var port = 9200;
+let port = 9200;
 if (program.args[1])
 {
     if (!validator.isInt(program.args[1], { min: 0, max: 0xFFFF }))
