@@ -1,8 +1,8 @@
 'use strict';
 
-var program = require('commander');
-var validator = require('validator');
-var helper = require('./lib/helper');
+const program = require('commander');
+const validator = require('validator');
+const helper = require('./lib/helper');
  
 program
     .version('0.0.1')
