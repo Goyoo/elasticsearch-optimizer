@@ -36,7 +36,7 @@ global.ES_PORT = port;
 /*
  * ES version support checks
  */
-helper.getESVersion(function (error, version)
+helper.getESVersion((error, version) =>
 {
     if (error)
         return helper.failAndExit(error);
