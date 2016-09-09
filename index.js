@@ -25,7 +25,7 @@ let port = 9200;
 if (program.args[1])
 {
     if (!validator.isInt(program.args[1], { min: 0, max: 0xFFFF }))
-        return console.error('<port> should be a valid port number.')
+        return console.error('<port> should be a valid port number.');
     
     port = program.args[1];
 }
