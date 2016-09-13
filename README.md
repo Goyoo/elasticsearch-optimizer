@@ -6,6 +6,10 @@
 node index.js localhost 9200
 ```
 
+# Screenshot
+
+![](https://raw.githubusercontent.com/chjj/termcoin/master/img/intro.jpg)
+
 # Contribute
 Please suggestions good improvements, blog posts and existing scripts [there](https://github.com/Goyoo/elasticsearch-optimizer/issues/1).
 Don't be shy ! We will put you in the contributors list :bowtie:
