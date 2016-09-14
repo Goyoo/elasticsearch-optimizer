@@ -24,7 +24,8 @@
     "url": "https://github.com/Goyoo/elasticsearch-optimizer/issues"
   },
   "bin": {
-    "elasticsearch-optimizer": "index.js"
+    "elasticsearch-optimizer": "index.js",
+    "es-optimizer": "index.js"
   },
   "homepage": "https://github.com/Goyoo/elasticsearch-optimizer#readme",
   "dependencies": {
