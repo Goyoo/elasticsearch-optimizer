@@ -1,9 +1,14 @@
 # elasticsearch-optimizer
 Make ES faster than ever! Check that your elasticsearch cluster is ready for production
 
+# Installation
+```bash
+npm i -g elasticsearch-optimizer
+```
+
 # Usage
 ```bash
-node index.js localhost 9200
+es-optimizer my-awesome-cluster 9200
 ```
 
 # Screenshot
